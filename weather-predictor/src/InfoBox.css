@@ -1,0 +1,20 @@
+.InfoBox {
+  text-align: center;
+}
+
+.CardContent {
+  display: flex;
+  justify-content: center;
+}
+
+.InfoBox .MuiCard-root {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.InfoBox .MuiCard-root:hover {
+  transform: scale(1.05);
+}
