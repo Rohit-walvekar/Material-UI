@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7922d643-740f-4660-b317-dac181864527" /># Weather Predictor App (React)
+# Weather Predictor App (React)
 
 A modern and responsive Weather Prediction Application built using **React.js** and **OpenWeather API**. This app allows users to search for any city and get real-time weather information.
 
