@@ -1,33 +1,43 @@
-# Weather Predictor App (React)
+# Weather Predictor (React)
 
-A modern and responsive Weather Prediction Application built using **React.js** and **OpenWeather API**. This app allows users to search for any city and get real-time weather information.
+A simple and responsive weather application built using **React.js** and the **OpenWeather API**. This app allows users to search for any city and instantly view its current weather details.
+
+I built this project to improve my React skills and learn how to work with APIs, manage application state, and display real-time data in a clean user interface.
 
 ---
 
 ## Features
 
-- Search weather by city name  
-- Displays temperature in Celsius  
-- Shows weather condition (cloudy, sunny, etc.)  
-- Displays humidity level  
-- Shows wind speed  
-- Error handling for invalid city  
-- Fully responsive design  
+- Search weather by city name
+- View the current temperature
+- Check humidity and wind speed
+- See weather conditions with matching icons
+- Displays minimum, maximum, and feels-like temperature
+- Shows an error message for invalid city names
+- Responsive design for desktop and mobile devices
 
 ---
 
 ## Technologies Used
 
-- React.js (Frontend)  
-- OpenWeather API  
-- CSS / Material UI  
-- Vite (Build Tool)  
-- JavaScript (ES6)  
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- OpenWeather API
+- Vite
+
+---
+
+## Live Demo
+
+-  https://findweatherreact.netlify.app
 
 ---
 
 ## Project Structure
 
+```text
 weather-predictor/
 │
 ├── public/
@@ -36,60 +46,77 @@ weather-predictor/
 ├── vite.config.js
 ├── index.html
 └── README.md
+```
 
 ---
 
-## How to Run Locally
+## Running the Project
 
-1. Clone the repository:
-git clone https://github.com/Rohit-walvekar/Material-UI.git
+### 1. Clone the repository
 
-2. Navigate to project folder:
+```bash
+git clone https://github.com/Rohit-walvekar/weather-predictor.git
+```
+
+### 2. Move into the project folder
+
+```bash
 cd weather-predictor
+```
 
-3. Install dependencies:
+### 3. Install dependencies
+
+```bash
 npm install
+```
 
-4. Run the project:
+### 4. Start the development server
+
+```bash
 npm run dev
+```
 
-5. Open in browser:
+### 5. Open your browser
+
+```
 http://localhost:5173
+```
 
 ---
 
-## API Used
+## API
 
-This project uses the **OpenWeatherMap API** to fetch real-time weather data.  
-You need to generate your own API key from:
+This project uses the **OpenWeather API** to fetch real-time weather information.
+
+You can get your free API key from:
 
 https://openweathermap.org/api
 
 ---
 
-## Learning Outcomes
+## What I Learned
 
-- Working with APIs using fetch / axios  
-- Handling user input and validation  
-- Managing state in React  
-- Building responsive UI  
-- Real-world project development  
+While building this project, I learned how to:
+
+- Build applications using React.js
+- Fetch and display data from an external API
+- Manage component state with React Hooks
+- Handle user input and API errors
+- Create responsive user interfaces
+- Organize a React project structure
 
 ---
 
 ## Author
 
-Rohit Chandrakant Walvekar  
-GitHub: https://github.com/Rohit-walvekar  
+**Rohit Walvekar**
+
+- GitHub: https://github.com/Rohit-walvekar
+- Portfolio: https://portfolio-rohitwalvekar.netlify.app
 
 ---
 
 ## Acknowledgement
 
-This project is created as part of a **Front-end Development Internship Task**.
+This project was developed as part of my learning journey in React.js and API integration. It helped me gain practical experience in building real-world web applications.
 
----
-
-## License
-
-This project is for educational purposes.
